@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Reservation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background: none">
+    <select name="date" id="date">
+        <option value="none" selected disabled hidden>Choose a date for your reservation</option>
+    </select>
+    <select name="reservation" id="reservation">
+        <option value="none" selected disabled hidden>Choose an hour for your reservation</option>
+    </select>
+    <select name="stop" id="stop">
+        <option value="none" selected disabled hidden>Choose your desired stop</option>
+    </select>
+    <button id="submit">Submit</button>
+    <br><a href="./index.html">Return to homepage</a>
+    <br><a href="./reservation.html">Manage your reservation(s)</a>
+    <script src="./script/broadcastsession.js"></script>
+    <script src="./script/doreservation.js"></script>
+</body>
+</html>
